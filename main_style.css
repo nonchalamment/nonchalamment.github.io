@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background-color: #FFFFFF; /*when the time comes, use #F8FAFC plz */
+  background-color: #F8FAFC; /*when the time comes, use #F8FAFC plz */
   color: #313131;
 }
 
@@ -42,7 +42,7 @@ header .col-sm-4 {                      /*do not use > with the defaults (header
 }
 
 section.container > .col-sm-6 {
-  min-width: 510px;
+  min-width: 60rem;
 }
 
 a {
