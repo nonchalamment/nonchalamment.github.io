@@ -54,6 +54,20 @@ header .col-sm-4 {                      /*do not use > with the defaults (header
   font-style: oblique;
 }
 
+a {
+  color: #313131;
+ }
+
+a:hover {
+  text-decoration: none;
+  color: #313131;
+ }
+
+a:active {
+  text-decoration: none;
+  color: #313131;
+ }
+ 
 .button {
   padding-top: 3.75rem;
   color: #313131;
