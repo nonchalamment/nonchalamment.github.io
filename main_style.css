@@ -15,16 +15,16 @@ div > h1 {
 #wheel1 {
     height: auto; 
     width: auto; 
-    max-width: 500px; 
-    max-height: 500px;
+    max-width: 57rem; 
+    max-height: 57rem;
     margin-top: 4.5rem;
 }
 
 #wheel2 {
     height: auto; 
     width: auto; 
-    max-width: 510px; 
-    max-height: 510px;
+    max-width: 60rem; 
+    max-height: 60rem;
     margin-top: 2rem;
 }
 
@@ -43,7 +43,6 @@ header .col-sm-4 {                      /*do not use > with the defaults (header
 
 section.container > .col-sm-6 {
   min-width: 510px;
-
 }
 
 a {
