@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #FFFFFF; /*when the time comes, use #F8FAFC plz */
+  color: #313131;
+}
+
+div > h1 {
+  font-size: 3rem;
+  padding-top: 3.5rem;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+#wheel1 {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    margin-top: 4.5rem;
+}
+
+#wheel2 {
+    height: auto; 
+    width: auto; 
+    max-width: 510px; 
+    max-height: 510px;
+    margin-top: 2rem;
+}
+
+header nav p {
+  cursor: pointer;
+}
+
+header .col-sm-8 > a {
+  margin: 1rem 3rem 3rem;
+  min-width: 0.5rem;
+}
+
+header .col-sm-4 {                      /*do not use > with the defaults (header, nav, p, h1, etc.)*/
+  margin: 7px 20px 0px;
+}
+
+section.container > .col-sm-6 {
+  min-width: 510px;
+
+}
+
+#placeholder {
+  padding: 10px 10px 10px;
+  margin-top: 0rem;
+  font-size: 4rem;
+  font-style: oblique;
+}
+
+#mobile {
+  margin-top: 0rem;
+  font-size: 2rem;
+  font-style: oblique;
+  padding: 10px 10px 10px;
+}
+
+.button {
+  padding-top: 3.75rem;
+  color: #313131;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > .row {
+   display: flex;
+   align-items: center;
+}
+
+section.container > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-
+}
