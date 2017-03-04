@@ -33,7 +33,7 @@ header nav p {
 }
 
 header .col-sm-8 > a {
-  margin: 1rem 3rem 3rem;
+  margin: 1rem 3rem 0.75rem;
   min-width: 0.5rem;
 }
 
