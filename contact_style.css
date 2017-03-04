@@ -97,7 +97,18 @@ section.container row {
 
 h2 {
   padding: 10px 10px 10px;
-  margin-top: 22rem;
-  font-size: 4rem;
+  margin-top: 15rem;
+  font-size: 2rem;
+  font-weight: 300;
   font-style: oblique;
 }
+
+h2 > a:hover {
+  text-decoration: underline;
+ }
+
+emailme {
+  padding: 0px 0px 0px;
+  margin-top: 0rem;
+ }
+ 
