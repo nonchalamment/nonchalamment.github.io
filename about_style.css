@@ -10,6 +10,7 @@ div > h1 {
   padding-top: 3.5rem;
   font-weight: 700;
   font-style: oblique;
+  white-space: nowrap;
 }
 
 header nav p {

@@ -5,26 +5,28 @@ body {
   color: #313131;
 }
 
-div > h1 {
+div > h1 { /* top left hand corner, with name */
   font-size: 3rem;
   padding-top: 3.5rem;
   font-weight: 700;
   font-style: oblique;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
-#wheel1 {
+#wheel1 { /* wheel to the left */
     height: auto; 
     width: auto; 
-    max-width: 57rem; 
-    max-height: 57rem;
+    max-width: 100%; 
+    max-height: 100%;
     margin-top: 4.5rem;
 }
 
-#wheel2 {
+#wheel2 { /* wheel to the right */
     height: auto; 
     width: auto; 
-    max-width: 60rem; 
-    max-height: 60rem;
+    max-width: 100%; 
+    max-height: 100%;
     margin-top: 2rem;
 }
 

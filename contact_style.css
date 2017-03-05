@@ -10,6 +10,7 @@ div > h1 {
   padding-top: 3.5rem;
   font-weight: 700;
   font-style: oblique;
+  white-space: nowrap;
 }
 
 header nav p {
@@ -94,5 +95,9 @@ h2 > a:hover {
 emailme {
   padding: 0px 0px 0px;
   margin-top: 0rem;
+ }
+ 
+#email {
+  align-items: center;
  }
  
