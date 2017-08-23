@@ -80,6 +80,14 @@ h1 {
   font-align: center;
 }
 
+h2 {
+  font-weight: 100;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-align: center;
+}
+
 .title {
   margin: auto;
   width: 50%;
@@ -92,4 +100,43 @@ h1 {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+.pieces {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.pictuas {
+  width: 20%;
+  margin: auto;
+  padding: 1em;
+}
+
+.parallel {
+  display:inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation {
+      width: 100%;
+  }
+  
+  .title {
+      width: 100%;
+  }
+  
+  .bio {
+      width: 100%
+  }
+  
+  .logo {
+      margin-right: 0em;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .logo {
+      margin-right: 1em;
+  }
 }
