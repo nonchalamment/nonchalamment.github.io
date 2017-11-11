@@ -107,14 +107,25 @@ h2 {
   font-weight: 400;
 }
 
+.italics {
+  font-style: italic;
+  font-weight: 300;
+}
+
 .pictuas {
-  width: 20%;
-  margin: auto;
-  padding: 1em;
+  display: inline-block;
 }
 
 .parallel {
   display: block;
+  margin: auto;
+  width: 22em;
+  padding: 1em;
+}
+
+.parallel > a {
+  width: 400px;
+  height: 600px; 
 }
 
 @media only screen and (max-width: 800px) {
