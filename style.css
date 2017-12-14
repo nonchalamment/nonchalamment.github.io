@@ -16,7 +16,7 @@
 }
 */
 body {
-  background-color: #FFF;
+  background-color: #FEFEFE;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -68,6 +68,11 @@ a:hover {
  }
 
 img {
+  display: inline-block;
+  margin: auto;
+}
+
+.img_front {
   display: block;
   margin: auto;
 }
@@ -116,17 +121,37 @@ h2 {
   display: inline-block;
 }
 
+.tearrarium {
+  display: block;
+  width: 50%;
+ }
+
 .parallel {
   display: block;
   margin: auto;
-  width: 22em;
+  width: 51em;
   padding: 1em;
 }
 
 .parallel > a {
-  width: 400px;
+  width: 900px;
   height: 600px; 
 }
+
+.resize_vert {
+  width: 400px;
+ }
+ 
+.resize_hor {
+  width: 804px;
+  padding-bottom: 4px;
+ }
+ 
+ iframe {
+  display: block;
+  margin: 0 auto;
+ 
+  }
 
 @media only screen and (max-width: 800px) {
   .navigation {
@@ -147,6 +172,7 @@ h2 {
 }
 
 @media only screen and (max-width: 1400px) {
+
   .logo {
       margin-right: 1em;
   }
