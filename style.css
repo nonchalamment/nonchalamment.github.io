@@ -107,6 +107,14 @@ h2 {
   margin: auto;
 }
 
+.centering {
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
 .pieces {
   font-style: italic;
   font-weight: 400;
@@ -124,6 +132,16 @@ h2 {
 .tearrarium {
   display: block;
   width: 50%;
+ }
+
+.biopic {
+  display: block;
+  width: 80%;
+} 
+ 
+.nocturnes {
+  display: block;
+  width: 100%;
  }
 
 .parallel {
@@ -146,7 +164,7 @@ h2 {
   width: 804px;
   padding-bottom: 4px;
  }
- 
+
  iframe {
   display: block;
   margin: 0 auto;
