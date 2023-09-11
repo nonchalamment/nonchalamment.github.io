@@ -14,6 +14,10 @@
   src: url('../static/fonts/DMSerifDisplay-Italic.ttf');
 }
 
+:root {
+  --slate-gray: rgb(50, 50, 50);
+}
+
 /* * {
   border-color: black;
   border-style: solid;
@@ -22,12 +26,12 @@
 
 h1, h2, h3 {
   font-family: DM Serif Display;
-  color: rgb(40, 40, 40);
+  color: var(--slate-gray);
 }
 
 h1 {
   font-size: 4rem;
-  margin: 0 30px;
+  margin: 20px 0 0 30px;
 }
 
 h2 {
@@ -45,7 +49,15 @@ h2 {
 
 .navbar-content, .navbar-content-left {
   margin: 20px;
+}
+
+a {
   text-decoration: none;
+  color: var(--slate-gray);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .title {
@@ -56,6 +68,8 @@ h2 {
 .content {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 200;
+  margin: 35px 30px;
+  width: 60%;
 }
 
 .sidebar {
@@ -64,4 +78,15 @@ h2 {
 
 .ul-sidebar {
   list-style-type: none;
+}
+
+.image-cards {
+  display: flex;
+}
+
+.image-cards > img {
+  margin: 10px;
+  border: 1px solid var(--slate-gray);
+  width: 50%;
+  height: 50%;
 }
