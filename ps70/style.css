@@ -4,13 +4,53 @@
   src: url('webfonts/3480CE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3480CE_0_0.woff2') format('woff2'),url('webfonts/3480CE_0_0.woff') format('woff'),url('webfonts/3480CE_0_0.ttf') format('truetype');
 }
 
-h2, h3 {
-  font-family: Didonesque-DisplayItalic;
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('../static/fonts/DMSerifDisplay-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'DM Serif Display Italic';
+  src: url('../static/fonts/DMSerifDisplay-Italic.ttf');
+}
+
+/* * {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+} */
+
+h1, h2, h3 {
+  font-family: DM Serif Display;
+  color: rgb(40, 40, 40);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 30px;
+}
+
+h2 {
+  margin: 0 30px;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-between;
+  font-family: DM Serif Display;
+  font-size: 1.5rem;
+}
+
+.navbar-content, .navbar-content-left {
+  margin: 20px;
+  text-decoration: none;
 }
 
 .title {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .content {
@@ -24,11 +64,4 @@ h2, h3 {
 
 .ul-sidebar {
   list-style-type: none;
-}
-
-
-* {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
 }
