@@ -80,13 +80,17 @@ a:hover {
   list-style-type: none;
 }
 
-.image-cards {
+.image-cards-container {
   display: flex;
 }
 
-.image-cards > img {
+.image-card > img, .image-card > a > img {
   margin: 10px;
   border: 1px solid var(--slate-gray);
-  width: 50%;
-  height: 50%;
+  width: 300px;
+}
+
+.spacing {
+  margin: 20px;
+  padding: 20px;
 }
